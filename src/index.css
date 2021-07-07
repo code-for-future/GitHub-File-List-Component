@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  color:#0366d6;
+  font-size:20px;
+
+}
+li{
+  list-style-type: none;
+}
+.filelist{
+  display:flex;
+  box-sizing: border-box;
+
+  
+}
+.filelist *{
+  box-sizing: border-box;
+}
+.icon{
+ width: 16px;
+ display:inline-block;
+ margin-right: 16px;
+}
+
+.name{
+  width:33.33%;
+  margin-right:16px;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size:14px;
+ 
+}
+.commit{
+  width:33.33%;
+ margin-right:auto;
+ font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+ font-size:14px;
+ color:#586069;
+}
+.time{
+  width:10%;
+  text-align:center;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size:14px;
+  color:#586069;
+}
+ul li div.filelist{
+  border:1px solid #eee;
+}
+
+.fasfolder-icon{
+  color:#79b8ff;
+  
+}
+.fasfile-icon{
+  color:#959da5;
+}
